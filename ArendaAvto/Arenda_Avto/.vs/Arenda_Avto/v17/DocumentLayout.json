@@ -1,0 +1,64 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041F-30\\\u0411\u0435\u0440\u0451\u0437\u043A\u0438\u043D\\ArendaAvto\\Arenda_Avto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33117C2D-1AC1-4CA7-BB8E-E0A945F2928D}|..\\BibliotekaAvto\\BibliotekaAvto.csproj|d:\\\u043F-30\\\u0431\u0435\u0440\u0451\u0437\u043A\u0438\u043D\\arendaavto\\bibliotekaavto\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D65E937C-3DCD-4E78-81B4-424AD79C058E}|Arenda_Avto.csproj|d:\\\u043F-30\\\u0431\u0435\u0440\u0451\u0437\u043A\u0438\u043D\\arendaavto\\arenda_avto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D65E937C-3DCD-4E78-81B4-424AD79C058E}|Arenda_Avto.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\\u041F-30\\\u0411\u0435\u0440\u0451\u0437\u043A\u0438\u043D\\ArendaAvto\\BibliotekaAvto\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\BibliotekaAvto\\Class1.cs",
+              "ToolTip": "D:\\\u041F-30\\\u0411\u0435\u0440\u0451\u0437\u043A\u0438\u043D\\ArendaAvto\\BibliotekaAvto\\Class1.cs",
+              "RelativeToolTip": "..\\BibliotekaAvto\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:14:34.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\\u041F-30\\\u0411\u0435\u0440\u0451\u0437\u043A\u0438\u043D\\ArendaAvto\\Arenda_Avto\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\\u041F-30\\\u0411\u0435\u0440\u0451\u0437\u043A\u0438\u043D\\ArendaAvto\\Arenda_Avto\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:11:50.471Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
