@@ -1,0 +1,11 @@
+C:\Users\Acer\source\repos\lr.MDK.01.01\LR_3\LR_3_var3\bin\Debug\LR_3_var3.exe.config
+C:\Users\Acer\source\repos\lr.MDK.01.01\LR_3\LR_3_var3\bin\Debug\LR_3_var3.exe
+C:\Users\Acer\source\repos\lr.MDK.01.01\LR_3\LR_3_var3\bin\Debug\LR_3_var3.pdb
+C:\Users\Acer\source\repos\lr.MDK.01.01\LR_3\LR_3_var3\obj\Debug\LR_3_var3.csproj.AssemblyReference.cache
+C:\Users\Acer\source\repos\lr.MDK.01.01\LR_3\LR_3_var3\obj\Debug\LR_3_var3.MainForm.resources
+C:\Users\Acer\source\repos\lr.MDK.01.01\LR_3\LR_3_var3\obj\Debug\LR_3_var3.Properties.Resources.resources
+C:\Users\Acer\source\repos\lr.MDK.01.01\LR_3\LR_3_var3\obj\Debug\LR_3_var3.csproj.GenerateResource.cache
+C:\Users\Acer\source\repos\lr.MDK.01.01\LR_3\LR_3_var3\obj\Debug\LR_3_var3.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\lr.MDK.01.01\LR_3\LR_3_var3\obj\Debug\LR_3_var3.exe
+C:\Users\Acer\source\repos\lr.MDK.01.01\LR_3\LR_3_var3\obj\Debug\LR_3_var3.pdb
+C:\Users\Acer\source\repos\lr.MDK.01.01\LR_3\LR_3_var3\obj\Debug\LR_3_var3.exe.config
