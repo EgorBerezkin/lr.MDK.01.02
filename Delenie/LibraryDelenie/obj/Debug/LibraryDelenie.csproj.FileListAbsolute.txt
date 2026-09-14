@@ -1,0 +1,12 @@
+C:\Users\st53\Desktop\Boikov\Delenie\LibraryDelenie\bin\Debug\LibraryDelenie.dll
+C:\Users\st53\Desktop\Boikov\Delenie\LibraryDelenie\bin\Debug\LibraryDelenie.pdb
+C:\Users\st53\Desktop\Boikov\Delenie\LibraryDelenie\obj\Debug\LibraryDelenie.csproj.AssemblyReference.cache
+C:\Users\st53\Desktop\Boikov\Delenie\LibraryDelenie\obj\Debug\LibraryDelenie.csproj.CoreCompileInputs.cache
+C:\Users\st53\Desktop\Boikov\Delenie\LibraryDelenie\obj\Debug\LibraryDelenie.dll
+C:\Users\st53\Desktop\Boikov\Delenie\LibraryDelenie\obj\Debug\LibraryDelenie.pdb
+E:\4 курс\Тестирование\Boikov\Delenie\LibraryDelenie\bin\Debug\LibraryDelenie.dll
+E:\4 курс\Тестирование\Boikov\Delenie\LibraryDelenie\bin\Debug\LibraryDelenie.pdb
+E:\4 курс\Тестирование\Boikov\Delenie\LibraryDelenie\obj\Debug\LibraryDelenie.csproj.AssemblyReference.cache
+E:\4 курс\Тестирование\Boikov\Delenie\LibraryDelenie\obj\Debug\LibraryDelenie.csproj.CoreCompileInputs.cache
+E:\4 курс\Тестирование\Boikov\Delenie\LibraryDelenie\obj\Debug\LibraryDelenie.dll
+E:\4 курс\Тестирование\Boikov\Delenie\LibraryDelenie\obj\Debug\LibraryDelenie.pdb

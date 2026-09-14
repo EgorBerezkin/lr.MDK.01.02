@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delenie", "Delenie\Delenie.csproj", "{3BA3851D-D133-4144-A31C-243901DECF25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryDelenie", "LibraryDelenie\LibraryDelenie.csproj", "{7305FAC1-D668-41E0-A1F1-49053BDC3B62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BA3851D-D133-4144-A31C-243901DECF25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA3851D-D133-4144-A31C-243901DECF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA3851D-D133-4144-A31C-243901DECF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA3851D-D133-4144-A31C-243901DECF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7305FAC1-D668-41E0-A1F1-49053BDC3B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7305FAC1-D668-41E0-A1F1-49053BDC3B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7305FAC1-D668-41E0-A1F1-49053BDC3B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7305FAC1-D668-41E0-A1F1-49053BDC3B62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A57C4871-D97B-410A-AB6C-327E582773F1}
+	EndGlobalSection
+EndGlobal
