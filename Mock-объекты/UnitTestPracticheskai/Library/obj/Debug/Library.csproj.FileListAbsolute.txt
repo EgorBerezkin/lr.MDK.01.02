@@ -1,0 +1,6 @@
+E:\4 курс\Тестирование\Практическая\UnitTestPracticheskai\Library\bin\Debug\Library.dll
+E:\4 курс\Тестирование\Практическая\UnitTestPracticheskai\Library\bin\Debug\Library.pdb
+E:\4 курс\Тестирование\Практическая\UnitTestPracticheskai\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+E:\4 курс\Тестирование\Практическая\UnitTestPracticheskai\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+E:\4 курс\Тестирование\Практическая\UnitTestPracticheskai\Library\obj\Debug\Library.dll
+E:\4 курс\Тестирование\Практическая\UnitTestPracticheskai\Library\obj\Debug\Library.pdb

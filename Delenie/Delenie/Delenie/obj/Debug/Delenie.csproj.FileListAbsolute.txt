@@ -1,0 +1,46 @@
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\Delenie.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\Delenie.pdb
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\LibraryDelenie.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\LibraryDelenie.pdb
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\obj\Debug\Delenie.csproj.AssemblyReference.cache
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\obj\Debug\Delenie.csproj.CoreCompileInputs.cache
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\obj\Debug\Delenie.csproj.Up2Date
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\obj\Debug\Delenie.dll
+C:\Users\st53\Desktop\Boikov\Delenie\Delenie\obj\Debug\Delenie.pdb
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\obj\Debug\Delenie.csproj.AssemblyReference.cache
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\obj\Debug\Delenie.csproj.CoreCompileInputs.cache
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\obj\Debug\Delenie.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\obj\Debug\Delenie.pdb
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\ru\Microsoft.TestPlatform.AdapterUtilities.resources.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\Delenie.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\Delenie.pdb
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\LibraryDelenie.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\LibraryDelenie.pdb
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\4 курс\Тестирование\Boikov\Delenie\Delenie\obj\Debug\Delenie.csproj.Up2Date
