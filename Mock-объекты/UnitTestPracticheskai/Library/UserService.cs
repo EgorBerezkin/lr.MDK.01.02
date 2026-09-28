@@ -32,8 +32,13 @@ namespace Library
 
         public string Registrazia(string login, string password) // создание метода регистрации
         {
+            if (string.IsNullOrEmpty(password) || password.Length < 8)
+            {
+                return "Пароль должен содержать не менее 8 символов";
+            }
+
             // exsisting - существующий
-            var exsisting = repository_.GetUser(login); // поиск пользователя с указанным логином
+            User exsisting = repository_.GetUser(login); // поиск пользователя с указанным логином
             if (exsisting != null) // проверка существования (пользователь найден)
             {
                 return "пользователь уже существует";

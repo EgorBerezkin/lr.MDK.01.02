@@ -19,17 +19,16 @@ namespace UnitTestPracticheskai
             // создание Mock-БД
             Mock<IUserRepository> mockDatabase = new Mock<IUserRepository>();
             // пользователь, которого прочитали из файла
-            User user = new User
+            var users = new List<User>
             {
-                Login = "Berezkin123",
-                Password = "123",
-                Name = "Егор",
-                Familia = "Берёзкин"
+                new User {Login = "Berezkin123", Password = "berezkin123"},
+                new User {Login = "Irina1234", Password = "irina12346"}
             };
             // программа читает файл, Mock-файл возвращает нашего пользователя
-            mockFile.Setup(file => file.ReadDataFromFile("users.txt")).Returns(new List<User> { user });            
+            mockFile.Setup(file => file.ReadDataFromFile("users.txt")).Returns(users);            
             // проверка на правильность данных
-            mockFile.Setup(file => file.ValidateUser("Berezkin123", "123")).Returns(true);
+            mockFile.Setup(file => file.ValidateUser("Berezkin123", "berezkin123")).Returns(true);
+            mockFile.Setup(file => file.ValidateUser("Irina1234", "irina12346")).Returns(true);
             // создание Import и передача ему наши Mock-объекты
             var import = new Import(mockFile.Object, mockDatabase.Object);
             // запускание импорта
@@ -46,17 +45,17 @@ namespace UnitTestPracticheskai
             // Mock-БД
             Mock<IUserRepository> mockDatabase = new Mock<IUserRepository>();
             // пользователь из файла
-            User user = new User
+            // пользователь, которого прочитали из файла
+            var users = new List<User>
             {
-                Login = "Berezkin123",
-                Password = "",
-                Name = "Егор",
-                Familia = "Берёзкин"
+                new User {Login = "Berezkin123", Password = "berezkin123"},
+                new User {Login = "Irina1234", Password = "irina12346"}
             };
-            // файл возвращает пользователя
-            mockFile.Setup(file => file.ReadDataFromFile("users.txt")).Returns(new List<User> { user });
-            // проверка данных не пройдена
-            mockFile.Setup(file => file.ValidateUser("Berezkin123", "")).Returns(false);
+            // программа читает файл, Mock-файл возвращает нашего пользователя
+            mockFile.Setup(file => file.ReadDataFromFile("users.txt")).Returns(users);
+            // проверка на правильность данных
+            mockFile.Setup(file => file.ValidateUser("Berezkin123", "")).Returns(true);
+            mockFile.Setup(file => file.ValidateUser("", "irina12346")).Returns(true);
             // создание Import
             var import = new Import(mockFile.Object, mockDatabase.Object);
             // запуск импорта

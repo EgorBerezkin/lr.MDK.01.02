@@ -10,3 +10,9 @@ E:\4 курс\Тестирование\Mock-объекты\UnitTestPracticheskai
 E:\4 курс\Тестирование\Mock-объекты\UnitTestPracticheskai\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
 E:\4 курс\Тестирование\Mock-объекты\UnitTestPracticheskai\Library\obj\Debug\Library.dll
 E:\4 курс\Тестирование\Mock-объекты\UnitTestPracticheskai\Library\obj\Debug\Library.pdb
+C:\Users\Acer\OneDrive\Desktop\папка\для учёбы\GitHub\Mock-объекты\UnitTestPracticheskai\Library\bin\Debug\Library.dll
+C:\Users\Acer\OneDrive\Desktop\папка\для учёбы\GitHub\Mock-объекты\UnitTestPracticheskai\Library\bin\Debug\Library.pdb
+C:\Users\Acer\OneDrive\Desktop\папка\для учёбы\GitHub\Mock-объекты\UnitTestPracticheskai\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive\Desktop\папка\для учёбы\GitHub\Mock-объекты\UnitTestPracticheskai\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive\Desktop\папка\для учёбы\GitHub\Mock-объекты\UnitTestPracticheskai\Library\obj\Debug\Library.dll
+C:\Users\Acer\OneDrive\Desktop\папка\для учёбы\GitHub\Mock-объекты\UnitTestPracticheskai\Library\obj\Debug\Library.pdb
