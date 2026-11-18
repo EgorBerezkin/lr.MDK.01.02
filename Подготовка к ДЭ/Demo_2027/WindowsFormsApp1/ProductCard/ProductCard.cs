@@ -8,6 +8,7 @@ namespace DemoUIComponents
     public partial class ProductCard: UserControl, IProductsView
     {
         private Product product_;
+        private Image defaultImage_;
         // цвета
         private Color normalColor_ = ColorTranslator.FromHtml("#D2F6E7");
         private Color enteringColor_ = ColorTranslator.FromHtml("#70B2AF");
@@ -16,11 +17,13 @@ namespace DemoUIComponents
         public ProductCard()
         {
             InitializeComponent();
-            foreach(Control c in Controls)
+            defaultImage_ = pictureBoxImage.Image;
+            foreach (Control c in Controls)
             {
                 c.MouseMove += ProductCard_MouseMove;
-                c.MouseMove -= ProductCard_MouseLeave;
+                c.MouseLeave -= ProductCard_MouseLeave;
             }
+            
         }
 
         private string CountText()
@@ -47,7 +50,7 @@ namespace DemoUIComponents
 
             CategoryLabel.Text = product.Category;
             CountLabel.Text = CountText();
-            PartsLabel.Text = product.Parts;
+            PartsLabel.Text = product.Parts.ToString();
             labelPrice.Text = product.Price.ToString() + " руб.";
             labelProizvodstvo.Text = product.Supplier + " | " + product.Name;
 
@@ -57,7 +60,16 @@ namespace DemoUIComponents
 
         public void ShowImage(string imagePath)
         {
-            pictureBoxImage.ImageLocation = imagePath;
+            if (string.IsNullOrEmpty(imagePath))
+            {
+
+                pictureBoxImage.ImageLocation = null;
+                pictureBoxImage.Image = defaultImage_;
+            }
+            else
+            {
+                pictureBoxImage.ImageLocation = imagePath;
+            }
         }
 
         private void ProductCard_MouseLeave(object sender, System.EventArgs e)
@@ -68,6 +80,15 @@ namespace DemoUIComponents
         private void ProductCard_MouseMove(object sender, MouseEventArgs e)
         {
             BackColor = enteringColor_;
+        }
+        // Метод для реализации видимости карточки
+        public void SetVisible(bool isVisible)
+        {
+            Visible = isVisible;
+        }
+        public Product GetProduct()
+        {
+            return product_;
         }
 
         private void ProductCard_Load(object sender, System.EventArgs e)

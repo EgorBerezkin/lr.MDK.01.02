@@ -4,8 +4,9 @@ namespace DemoLib.Models
 {
     public interface IProductsModel
     {
-        List<Product> Load();
+        List<Product> Load();     // список для метода загрузки товаров
 
-        int GetCountProducts();
+        int GetCountProducts();   // возвращение количества товаров
+        List<string> GetAllCategories();
     }
 }

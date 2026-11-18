@@ -8,8 +8,10 @@ namespace DemoLib.Models
 
         public AuthModel()
         {
-            users_.Add(new User { Login = "administrator", FIO = "Берёзкин Егор Витальевич", Role = "Администратор", ImageUser = "../../../Images/closeup-shot-cute-ginger-kitten-staring-camera-isolated-white-wall.jpg" });
-            users_.Add(new User { Login = "meneger", FIO = "Будина Ирина Сергеевна", Role = "Менеджер", ImageUser = "../../../Images/IMG_KB_164811.png" });
+            users_.Add(new User { Login = "administrator", FIO = "Берёзкин Егор Витальевич", Role = "Администратор", ImageUser = "../../../Images/kotik.png" });
+            users_.Add(new User { Login = "meneger", FIO = "Будина Ирина Сергеевна", Role = "Менеджер", ImageUser = "../../../Images/1.png" });
+            users_.Add(new User { Login = "isivanov", FIO = "Иванов Иван Сергеевич", Role = "Администратор" });
+
         }
         // Метод авторизации
         public User Authorize(string login)

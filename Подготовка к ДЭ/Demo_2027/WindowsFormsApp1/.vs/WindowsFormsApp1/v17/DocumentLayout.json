@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA9A34A-6C29-4C09-AB9E-A159B2A938A5}|WindowsFormsApp1\\WindowsFormsApp1.csproj|E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\windowsformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA9A34A-6C29-4C09-AB9E-A159B2A938A5}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA9A34A-6C29-4C09-AB9E-A159B2A938A5}|WindowsFormsApp1\\WindowsFormsApp1.csproj|E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\windowsformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AA9A34A-6C29-4C09-AB9E-A159B2A938A5}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97D48CA-D4A5-47D8-A6B3-C3E125F47EAF}|DemoLib\\DemoLib.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0434\u044D\\demo_2027\\windowsformsapp1\\demolib\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97D48CA-D4A5-47D8-A6B3-C3E125F47EAF}|DemoLib\\DemoLib.csproj|solutionrelative:demolib\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97D48CA-D4A5-47D8-A6B3-C3E125F47EAF}|DemoLib\\DemoLib.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0434\u044D\\demo_2027\\windowsformsapp1\\demolib\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97D48CA-D4A5-47D8-A6B3-C3E125F47EAF}|DemoLib\\DemoLib.csproj|solutionrelative:demolib\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BE4BAD-07EF-4A2C-84F3-183E5658302F}|ProductCard\\DemoUIComponents.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0434\u044D\\demo_2027\\windowsformsapp1\\productcard\\productcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BE4BAD-07EF-4A2C-84F3-183E5658302F}|ProductCard\\DemoUIComponents.csproj|solutionrelative:productcard\\productcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97D48CA-D4A5-47D8-A6B3-C3E125F47EAF}|DemoLib\\DemoLib.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0434\u044D\\demo_2027\\windowsformsapp1\\demolib\\filterparametr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97D48CA-D4A5-47D8-A6B3-C3E125F47EAF}|DemoLib\\DemoLib.csproj|solutionrelative:demolib\\filterparametr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97D48CA-D4A5-47D8-A6B3-C3E125F47EAF}|DemoLib\\DemoLib.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0434\u044D\\demo_2027\\windowsformsapp1\\demolib\\views\\iproductsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97D48CA-D4A5-47D8-A6B3-C3E125F47EAF}|DemoLib\\DemoLib.csproj|solutionrelative:demolib\\views\\iproductsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97D48CA-D4A5-47D8-A6B3-C3E125F47EAF}|DemoLib\\DemoLib.csproj|e:\\4 \u043A\u0443\u0440\u0441\\\u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0434\u044D\\demo_2027\\windowsformsapp1\\demolib\\repositories\\iordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97D48CA-D4A5-47D8-A6B3-C3E125F47EAF}|DemoLib\\DemoLib.csproj|solutionrelative:demolib\\repositories\\iordersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +67,109 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\WindowsFormsApp1\\MainForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\MainForm.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\WindowsFormsApp1\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WindowsFormsApp1\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T17:30:28.03Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\WindowsFormsApp1\\MainForm.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\MainForm.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\WindowsFormsApp1\\MainForm.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\MainForm.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAIwDEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T17:30:29.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\DemoLib\\OrderItem.cs",
+              "RelativeDocumentMoniker": "DemoLib\\OrderItem.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\DemoLib\\OrderItem.cs",
+              "RelativeToolTip": "DemoLib\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T19:34:55.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\DemoLib\\Order.cs",
+              "RelativeDocumentMoniker": "DemoLib\\Order.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\DemoLib\\Order.cs",
+              "RelativeToolTip": "DemoLib\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T19:34:43.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductCard.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\ProductCard\\ProductCard.cs",
+              "RelativeDocumentMoniker": "ProductCard\\ProductCard.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\ProductCard\\ProductCard.cs",
+              "RelativeToolTip": "ProductCard\\ProductCard.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwFcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T18:52:40.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IOrdersRepository.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\DemoLib\\Repositories\\IOrdersRepository.cs",
+              "RelativeDocumentMoniker": "DemoLib\\Repositories\\IOrdersRepository.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\DemoLib\\Repositories\\IOrdersRepository.cs",
+              "RelativeToolTip": "DemoLib\\Repositories\\IOrdersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T18:19:20.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductsView.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\DemoLib\\Views\\IProductsView.cs",
+              "RelativeDocumentMoniker": "DemoLib\\Views\\IProductsView.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\DemoLib\\Views\\IProductsView.cs",
+              "RelativeToolTip": "DemoLib\\Views\\IProductsView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T18:20:31.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FilterParametr.cs",
+              "DocumentMoniker": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\DemoLib\\FilterParametr.cs",
+              "RelativeDocumentMoniker": "DemoLib\\FilterParametr.cs",
+              "ToolTip": "E:\\4 \u043A\u0443\u0440\u0441\\\u041F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043A\u0430 \u043A \u0414\u042D\\Demo_2027\\WindowsFormsApp1\\DemoLib\\FilterParametr.cs",
+              "RelativeToolTip": "DemoLib\\FilterParametr.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-18T18:18:29.879Z",
+              "EditorCaption": ""
             }
           ]
         }
