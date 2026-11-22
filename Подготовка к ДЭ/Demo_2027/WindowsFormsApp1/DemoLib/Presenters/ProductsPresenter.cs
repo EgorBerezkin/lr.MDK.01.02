@@ -25,8 +25,8 @@ namespace DemoLib.Presenters
 
         public void SortByPrice(SortOrder sortingOrder)
         {
-            List<Product> allProducts = new List<Product>(allProducts_);
-
+            List<Product> allProducts = new List<Product>(allProducts_); // создание копии списка, для тго чтобы не изменять исходный список
+            // сортировка по возрастанию
             if (sortingOrder == SortOrder.Ascending)
             {
                 allProducts.Sort(delegate (Product x, Product y)
@@ -36,6 +36,7 @@ namespace DemoLib.Presenters
                     return 0;
                 });
             }
+            // иначе по убыванию
             else
             {
                 allProducts.Sort(delegate (Product x, Product y)
@@ -45,7 +46,7 @@ namespace DemoLib.Presenters
                     return 0;
                 });
             }
-            Update(allProducts);
+            Update(allProducts); // список передается передается карточкам товаров
         }
 
         public void Update(List<Product> products)
@@ -65,47 +66,26 @@ namespace DemoLib.Presenters
         }
         public void Filter(FilterParametr filterPeremetr)
         {
-            List<Product> filteredProducts = new List<Product>();
-
-            foreach (Product product in allProducts_)
+            // перебор всех товаров
+            foreach (IProductsView view in views_)
             {
+                Product product = view.GetProduct();
+                // проверка видимости товаров
                 bool isVisibleView = true;
-
-                if (filterPeremetr.SearchText != "" && filterPeremetr.SearchText != null)
+                // проверка поискового текста
+                if (filterPeremetr.SearchText != "" && filterPeremetr.SearchText != null) // поисковая строка не пустая, и не равна нулю
                 {
-                    isVisibleView = product.Name.ToLower().Contains(filterPeremetr.SearchText.ToLower())
+                    isVisibleView = product.Name.ToLower().Contains(filterPeremetr.SearchText.ToLower()) // перевод названия товара в нижний регистр
                         || product.Parts.ToLower().Contains(filterPeremetr.SearchText.ToLower());
                 }
-
-                if (filterPeremetr.Category != null && filterPeremetr.Category != "Все товары")
+                // проверка категории
+                if (filterPeremetr.Category != null && filterPeremetr.Category != "Все товары") // категория указана и выбрана не общая категория
                 {
-                    isVisibleView = isVisibleView && product.Category == filterPeremetr.Category;
+                    // проверка двух условий: товар прошел проверку поиска, категория товара совпадает с выбранной категорией
+                    isVisibleView &= (product.Category == filterPeremetr.Category);
                 }
-
-                if (isVisibleView)
-                {
-                    filteredProducts.Add(product);
-                }
+                view.SetVisible(isVisibleView);
             }
-
-            Update(filteredProducts);
-        }
-        public List<Product> FindProductsByCategory(string category)
-        {
-            List<Product> allProduct = model_.Load();
-            List<Product> categoryProduct = new List<Product>();
-            if (category == "Все товары")
-            {
-                return allProduct;
-            }
-            foreach(Product p in allProduct)
-            {
-                if (p.Category.ToLower() == category.ToLower())
-                {
-                    categoryProduct.Add(p);
-                }
-            }
-            return categoryProduct;
         }
     }
 }

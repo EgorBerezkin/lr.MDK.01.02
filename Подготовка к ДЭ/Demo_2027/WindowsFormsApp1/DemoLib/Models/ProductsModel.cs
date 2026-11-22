@@ -25,13 +25,13 @@ namespace DemoLib.Models
                 Parts = "Верх — 100% козья кожа, подкладка — 100% кожа; \nподошва: 100% кожа"
             });
 
-            //orders_.Add(new Order { Id = 1, Items = new List<OrderItem> { new OrderItem { ProductItem = "Кросовки детские «Звёздочка»", Count = 3, SaleDate = new System.DateTime(2026, 10, 10) },
-            //                                                              //new OrderItem { ProductItem = "Туфли из натурального кабачка", Count = 4, SaleDate = new System.DateTime(2026, 10, 10) },
-            //                                                              new OrderItem {  ProductItem= "Босоножки «Песчаный берег» коричневые", Count = 20, SaleDate = new System.DateTime(2026, 10, 10) } } });
+            orders_.Add(new Order { Id = 1, OrderDate = new System.DateTime(2026, 10, 10), Items = new List<OrderItem> { new OrderItem { ProductItem = "Кросовки детские «Звёздочка»", Count = 3 },
+                                                                                                                       //new OrderItem { ProductItem = "Туфли из натурального кабачка", Count = 4 },
+                                                                                                                         new OrderItem {  ProductItem= "Босоножки «Песчаный берег» коричневые", Count = 20 } } });
 
-            //orders_.Add(new Order { Id = 2, Items = new List<OrderItem> { new OrderItem { ProductItem = "Кросовки детские «Звёздочка» экокожа", Count = 2, SaleDate = new System.DateTime(2026, 11, 10) },
-            //                                                              new OrderItem { ProductItem = "Туфли из натурального кабачка", Count = 3, SaleDate = new System.DateTime(2026, 11, 10) },
-            //                                                              new OrderItem {  ProductItem= "Босоножки «Песчаный берег»", Count = 15, SaleDate = new System.DateTime(2026, 11, 10) } } });
+            orders_.Add(new Order { Id = 2, OrderDate = new System.DateTime(2026, 11, 10), Items = new List<OrderItem> { new OrderItem { ProductItem = "Кросовки детские «Звёздочка» экокожа", Count = 2  },
+                                                                                                                         new OrderItem { ProductItem = "Туфли из натурального кабачка", Count = 3 },
+                                                                                                                         new OrderItem {  ProductItem= "Босоножки «Песчаный берег»", Count = 15 } } });
 
             // создание репозитория
             ordersRepository_ = new OrdersRepository(orders_);
@@ -73,17 +73,16 @@ namespace DemoLib.Models
             DateTime end = new DateTime(prevMontsDate.Year, prevMontsDate.Month + 1, 1).AddDays(-1);
 
             // улучшенная версия метода
-            //List<Product> discountProducts = data_
-            //    .Where(product => !orders
-            //        .SelectMany(order => order.Items)
-            //        .Any(item => item.ProductItem == product.Name
-            //            && item.SaleDate >= start
-            //            && item.SaleDate < end))
-            //    .ToList();
-            //foreach (Product product in discountProducts)
-            //{
-            //    product.Price *= 0.75;
-            //}
+            List<Product> discountProducts = data_
+                .Where(product => !orders
+                    .Where(order => order.OrderDate >= start && order.OrderDate < end)
+                    .SelectMany(order => order.Items)
+                    .Any(item => item.ProductItem == product.Name))
+                .ToList();
+            foreach (Product product in discountProducts)
+            {
+                product.Price *= 0.75;
+            }
         }
         public List<string> GetAllCategories()
         {

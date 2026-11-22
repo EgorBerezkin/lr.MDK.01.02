@@ -9,7 +9,13 @@ namespace DemoLib
         public string OrderNumber { get; set; }
         public DateTime OrderDate { get; set; }
         public string FIO { get; set; }
+        public double TotalSum { get; set; }
         public List<OrderItem> Items { get; set; }
+
+        public Order()
+        {
+            Items = new List<OrderItem>();
+        }
     }
     
 }

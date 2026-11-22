@@ -66,4 +66,5 @@ E:\4 курс\Подготовка к ДЭ\Demo_2027\WindowsFormsApp1\WindowsFor
 E:\4 курс\Подготовка к ДЭ\Demo_2027\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 E:\4 курс\Подготовка к ДЭ\Demo_2027\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
 E:\4 курс\Подготовка к ДЭ\Demo_2027\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+E:\4 курс\Подготовка к ДЭ\Demo_2027\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.OrderInfoForm.resources
 E:\4 курс\Подготовка к ДЭ\Demo_2027\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.config

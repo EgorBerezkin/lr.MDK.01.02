@@ -63,9 +63,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap users {
+        internal static System.Drawing.Bitmap user {
             get {
-                object obj = ResourceManager.GetObject("users", resourceCulture);
+                object obj = ResourceManager.GetObject("user", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -75,7 +75,7 @@ namespace WindowsFormsApp1.Properties {
         /// </summary>
         internal static System.Drawing.Bitmap Чудо_Обувь {
             get {
-                object obj = ResourceManager.GetObject("Чудо Обувь", resourceCulture);
+                object obj = ResourceManager.GetObject("Чудо_Обувь", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Чудо_Обувь1 {
+        internal static System.Drawing.Bitmap ЧудоОбувь {
             get {
-                object obj = ResourceManager.GetObject("Чудо Обувь1", resourceCulture);
+                object obj = ResourceManager.GetObject("ЧудоОбувь", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

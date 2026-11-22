@@ -20,30 +20,29 @@ namespace DemoTesting
             products.Add(new Product { Name = "a", Price = 1000 });
             products.Add(new Product { Name = "b", Price = 2000 });
 
-            /// заказ в октябре на товар а
+            // заказ в октябре на товар а
             Order order_1 = new Order();
+            order_1.OrderDate = new DateTime(2026, 10, 10);
             order_1.Items = new List<OrderItem>();
             order_1.Items.Add(new OrderItem
             {
                 ProductItem = "a",
                 Count = 10,
-                SaleDate = new System.DateTime(2026, 10, 10)
             });
 
-            /// заказ в сентябре на товар а и b
+            // заказ в сентябре на товар а и b
             Order order_2 = new Order();
+            order_2.OrderDate = new DateTime(2026, 9, 10);
             order_2.Items = new List<OrderItem>();
             order_2.Items.Add(new OrderItem
             {
                 ProductItem = "a",
                 Count = 10,
-                SaleDate = new System.DateTime(2026, 9, 10)
             });
             order_2.Items.Add(new OrderItem
             {
                 ProductItem = "b",
                 Count = 1,
-                SaleDate = new System.DateTime(2026, 9, 10)
             });
 
             List<Order> orders = new List<Order>();
@@ -63,9 +62,8 @@ namespace DemoTesting
                 Assert.AreEqual(prices[i], new_products[i].Price, 0.01);
                 i++;
             }
-
-            // Assert.AreEqual(1000.0, new_products[0].Price, 0.01);
-            // Assert.AreEqual(2000.0, new_products[1].Price, 0.01);
+            Assert.AreEqual(1000.0, new_products[0].Price, 0.01);
+            Assert.AreEqual(2000.0, new_products[1].Price, 0.01);
         }
         // Тест - Заказов нет
         [TestMethod]
@@ -96,12 +94,12 @@ namespace DemoTesting
             products.Add(new Product { Name = "a", Price = 1000 });
 
             Order order_1 = new Order();
+            order_1.OrderDate = new DateTime(2026, 10, 10);
             order_1.Items = new List<OrderItem>();
             order_1.Items.Add(new OrderItem
             {
                 ProductItem = "a",
                 Count = 10,
-                SaleDate = new DateTime(2026, 10, 10)
             });
 
             List<Order> orders = new List<Order>();
@@ -123,11 +121,11 @@ namespace DemoTesting
 
             Order order_1 = new Order();
             order_1.Items = new List<OrderItem>();
+            order_1.OrderDate = new DateTime(2026, 8, 10);
             order_1.Items.Add(new OrderItem
             {
                 ProductItem = "a",
                 Count = 10,
-                SaleDate = new DateTime(2026, 8, 10)
             });
 
             List<Order> orders = new List<Order>();

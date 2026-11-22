@@ -6,8 +6,8 @@ namespace DemoLib.Models
 {
     public class PostgreProductsModel : IProductsModel
     {
-         private string connectionString_ = "Host=localhost;Port=5432;Database=ShoeStoreDB;Username=postgres;";
-        //private string connectionString_ = "Host=192.168.1.48;Port=5432;Database=ShoeStoreBD;Username=st50-1;Password=501";
+        private string connectionString_ = "Host=localhost;Port=5432;Database=ShoeStoreDB;Username=postgres;";
+        // private string connectionString_ = "Host=192.168.1.48;Port=5432;Database=ShoeStoreBD;Username=st56-8;Password=568";
 
         // Загрузка товаров из PostgreSQL
         public List<Product> Load()
@@ -17,7 +17,7 @@ namespace DemoLib.Models
             using (NpgsqlConnection connection = new NpgsqlConnection(connectionString_))
             {
                 connection.Open();
-
+                // Left join - соединение товаров с остатками, Coalesse - если остатка нет, то 0
                 string query = @"SELECT p.kategoriya, p.name, p.parts, p.price, p.proizvodstvo, p.image,
                                     COALESCE(SUM(s.quantity), 0) AS total_count
                                     FROM products p
@@ -87,16 +87,19 @@ namespace DemoLib.Models
         {
             List<string> categories = new List<string>();
 
-            using (NpgsqlConnection connection = new NpgsqlConnection(connectionString_))
+            using (NpgsqlConnection connection = new NpgsqlConnection(connectionString_))      // Подключение к бд
             {
                 connection.Open();
 
-                string query = "SELECT DISTINCT kategoriya FROM products ORDER BY kategoriya";
+                string query = "SELECT DISTINCT kategoriya FROM products ORDER BY kategoriya"; // запрос в бд, получение данных, уборка повторяемых значений, название стоолбца
 
+                // выполнение запроса
                 using (NpgsqlCommand command = new NpgsqlCommand(query, connection))
                 {
+                    // получение результата
                     using (NpgsqlDataReader reader = command.ExecuteReader())
                     {
+                        // перебор полученных данных
                         while (reader.Read())
                         {
                             categories.Add(reader["kategoriya"].ToString());
@@ -104,7 +107,6 @@ namespace DemoLib.Models
                     }
                 }
             }
-
             return categories;
         }
     }

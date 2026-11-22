@@ -49,7 +49,7 @@
             this.panelStatus.Controls.Add(this.pictureBoxLogotip);
             this.panelStatus.Controls.Add(this.labelName);
             this.panelStatus.Location = new System.Drawing.Point(-32, -2);
-            this.panelStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panelStatus.Margin = new System.Windows.Forms.Padding(4);
             this.panelStatus.Name = "panelStatus";
             this.panelStatus.Size = new System.Drawing.Size(749, 153);
             this.panelStatus.TabIndex = 4;
@@ -67,13 +67,14 @@
             // 
             // pictureBoxLogotip
             // 
-            this.pictureBoxLogotip.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Чудо_Обувь1;
             this.pictureBoxLogotip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxLogotip.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogotip.InitialImage")));
+            this.pictureBoxLogotip.Image = global::WindowsFormsApp1.Properties.Resources.ЧудоОбувь;
+            this.pictureBoxLogotip.InitialImage = global::WindowsFormsApp1.Properties.Resources.ЧудоОбувь;
             this.pictureBoxLogotip.Location = new System.Drawing.Point(27, -11);
-            this.pictureBoxLogotip.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBoxLogotip.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxLogotip.Name = "pictureBoxLogotip";
             this.pictureBoxLogotip.Size = new System.Drawing.Size(197, 175);
+            this.pictureBoxLogotip.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxLogotip.TabIndex = 2;
             this.pictureBoxLogotip.TabStop = false;
             // 

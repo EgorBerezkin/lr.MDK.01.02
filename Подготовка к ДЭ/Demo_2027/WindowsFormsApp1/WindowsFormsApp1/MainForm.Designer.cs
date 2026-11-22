@@ -36,7 +36,6 @@
             this.labelFIO = new System.Windows.Forms.Label();
             this.pictureBoxImageUser = new System.Windows.Forms.PictureBox();
             this.labelNameFirma = new System.Windows.Forms.Label();
-            this.pictureBoxLogotip = new System.Windows.Forms.PictureBox();
             this.tabControlVklads = new System.Windows.Forms.TabControl();
             this.tabPageProducts = new System.Windows.Forms.TabPage();
             this.panelFunctional = new System.Windows.Forms.Panel();
@@ -48,15 +47,16 @@
             this.PriceSortingCombobox = new System.Windows.Forms.ComboBox();
             this.tabPageOrders = new System.Windows.Forms.TabPage();
             this.dataGridViewOrders = new System.Windows.Forms.DataGridView();
+            this.pictureBoxLogotip = new System.Windows.Forms.PictureBox();
             this.panelStatus.SuspendLayout();
             this.panelAuth.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImageUser)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogotip)).BeginInit();
             this.tabControlVklads.SuspendLayout();
             this.tabPageProducts.SuspendLayout();
             this.panelFunctional.SuspendLayout();
             this.tabPageOrders.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOrders)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogotip)).BeginInit();
             this.SuspendLayout();
             // 
             // MainLayout
@@ -64,11 +64,12 @@
             this.MainLayout.AutoScroll = true;
             this.MainLayout.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainLayout.Font = new System.Drawing.Font("Calibri", 7.85F, System.Drawing.FontStyle.Italic);
-            this.MainLayout.Location = new System.Drawing.Point(4, 123);
+            this.MainLayout.Location = new System.Drawing.Point(4, 70);
             this.MainLayout.Margin = new System.Windows.Forms.Padding(0);
             this.MainLayout.Name = "MainLayout";
-            this.MainLayout.Size = new System.Drawing.Size(1884, 379);
+            this.MainLayout.Size = new System.Drawing.Size(1884, 432);
             this.MainLayout.TabIndex = 0;
+            this.MainLayout.Paint += new System.Windows.Forms.PaintEventHandler(this.MainLayout_Paint);
             // 
             // panelStatus
             // 
@@ -121,8 +122,6 @@
             // pictureBoxImageUser
             // 
             this.pictureBoxImageUser.ErrorImage = null;
-            this.pictureBoxImageUser.Image = global::WindowsFormsApp1.Properties.Resources.users;
-            this.pictureBoxImageUser.InitialImage = global::WindowsFormsApp1.Properties.Resources.users;
             this.pictureBoxImageUser.Location = new System.Drawing.Point(20, 22);
             this.pictureBoxImageUser.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBoxImageUser.Name = "pictureBoxImageUser";
@@ -141,18 +140,6 @@
             this.labelNameFirma.Size = new System.Drawing.Size(886, 97);
             this.labelNameFirma.TabIndex = 3;
             this.labelNameFirma.Text = "ООО \"Кабачковая икра\"";
-            // 
-            // pictureBoxLogotip
-            // 
-            this.pictureBoxLogotip.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.Чудо_Обувь1;
-            this.pictureBoxLogotip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxLogotip.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxLogotip.InitialImage")));
-            this.pictureBoxLogotip.Location = new System.Drawing.Point(-20, -16);
-            this.pictureBoxLogotip.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBoxLogotip.Name = "pictureBoxLogotip";
-            this.pictureBoxLogotip.Size = new System.Drawing.Size(291, 251);
-            this.pictureBoxLogotip.TabIndex = 2;
-            this.pictureBoxLogotip.TabStop = false;
             // 
             // tabControlVklads
             // 
@@ -194,7 +181,7 @@
             this.panelFunctional.Margin = new System.Windows.Forms.Padding(0);
             this.panelFunctional.Name = "panelFunctional";
             this.panelFunctional.Padding = new System.Windows.Forms.Padding(5);
-            this.panelFunctional.Size = new System.Drawing.Size(1884, 119);
+            this.panelFunctional.Size = new System.Drawing.Size(1884, 66);
             this.panelFunctional.TabIndex = 2;
             // 
             // CategoryComboBox
@@ -202,9 +189,10 @@
             this.CategoryComboBox.AutoCompleteCustomSource.AddRange(new string[] {
             "по убыванию",
             "по возрастанию"});
+            this.CategoryComboBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.CategoryComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CategoryComboBox.FormattingEnabled = true;
-            this.CategoryComboBox.Location = new System.Drawing.Point(546, 11);
+            this.CategoryComboBox.Location = new System.Drawing.Point(514, 11);
             this.CategoryComboBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CategoryComboBox.Name = "CategoryComboBox";
             this.CategoryComboBox.Size = new System.Drawing.Size(265, 40);
@@ -214,7 +202,7 @@
             // labelCategory
             // 
             this.labelCategory.AutoSize = true;
-            this.labelCategory.Location = new System.Drawing.Point(423, 19);
+            this.labelCategory.Location = new System.Drawing.Point(391, 18);
             this.labelCategory.Name = "labelCategory";
             this.labelCategory.Size = new System.Drawing.Size(117, 33);
             this.labelCategory.TabIndex = 5;
@@ -222,7 +210,7 @@
             // 
             // textBoxSearch
             // 
-            this.textBoxSearch.Location = new System.Drawing.Point(139, 66);
+            this.textBoxSearch.Location = new System.Drawing.Point(908, 11);
             this.textBoxSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxSearch.Name = "textBoxSearch";
             this.textBoxSearch.Size = new System.Drawing.Size(265, 40);
@@ -232,7 +220,7 @@
             // labelSearch
             // 
             this.labelSearch.AutoSize = true;
-            this.labelSearch.Location = new System.Drawing.Point(15, 70);
+            this.labelSearch.Location = new System.Drawing.Point(811, 18);
             this.labelSearch.Name = "labelSearch";
             this.labelSearch.Size = new System.Drawing.Size(91, 33);
             this.labelSearch.TabIndex = 3;
@@ -256,7 +244,7 @@
             this.PriceSortingCombobox.Items.AddRange(new object[] {
             "по возрастанию",
             "по убыванию"});
-            this.PriceSortingCombobox.Location = new System.Drawing.Point(139, 12);
+            this.PriceSortingCombobox.Location = new System.Drawing.Point(101, 11);
             this.PriceSortingCombobox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PriceSortingCombobox.Name = "PriceSortingCombobox";
             this.PriceSortingCombobox.Size = new System.Drawing.Size(265, 40);
@@ -284,6 +272,7 @@
             this.dataGridViewOrders.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewOrders.GridColor = System.Drawing.Color.White;
             this.dataGridViewOrders.Location = new System.Drawing.Point(4, 4);
+            this.dataGridViewOrders.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridViewOrders.Name = "dataGridViewOrders";
             this.dataGridViewOrders.ReadOnly = true;
             this.dataGridViewOrders.RowHeadersWidth = 51;
@@ -291,6 +280,20 @@
             this.dataGridViewOrders.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewOrders.Size = new System.Drawing.Size(1884, 498);
             this.dataGridViewOrders.TabIndex = 0;
+            this.dataGridViewOrders.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewOrders_CellDoubleClick);
+            // 
+            // pictureBoxLogotip
+            // 
+            this.pictureBoxLogotip.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxLogotip.Image = global::WindowsFormsApp1.Properties.Resources.ЧудоОбувь;
+            this.pictureBoxLogotip.InitialImage = global::WindowsFormsApp1.Properties.Resources.ЧудоОбувь;
+            this.pictureBoxLogotip.Location = new System.Drawing.Point(-9, -11);
+            this.pictureBoxLogotip.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBoxLogotip.Name = "pictureBoxLogotip";
+            this.pictureBoxLogotip.Size = new System.Drawing.Size(264, 243);
+            this.pictureBoxLogotip.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxLogotip.TabIndex = 5;
+            this.pictureBoxLogotip.TabStop = false;
             // 
             // MainForm
             // 
@@ -313,13 +316,13 @@
             this.panelAuth.ResumeLayout(false);
             this.panelAuth.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImageUser)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogotip)).EndInit();
             this.tabControlVklads.ResumeLayout(false);
             this.tabPageProducts.ResumeLayout(false);
             this.panelFunctional.ResumeLayout(false);
             this.panelFunctional.PerformLayout();
             this.tabPageOrders.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewOrders)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogotip)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -328,7 +331,6 @@
 
         private System.Windows.Forms.FlowLayoutPanel MainLayout;
         private System.Windows.Forms.Panel panelStatus;
-        private System.Windows.Forms.PictureBox pictureBoxLogotip;
         private System.Windows.Forms.TabControl tabControlVklads;
         private System.Windows.Forms.TabPage tabPageProducts;
         private System.Windows.Forms.TabPage tabPageOrders;
@@ -345,6 +347,7 @@
         private System.Windows.Forms.ComboBox CategoryComboBox;
         private System.Windows.Forms.Label labelCategory;
         private System.Windows.Forms.DataGridView dataGridViewOrders;
+        private System.Windows.Forms.PictureBox pictureBoxLogotip;
     }
 }
 

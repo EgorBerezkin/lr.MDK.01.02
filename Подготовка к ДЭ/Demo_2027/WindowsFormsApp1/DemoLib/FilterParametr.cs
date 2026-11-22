@@ -2,7 +2,7 @@
 {
     public struct FilterParametr
     {
-        public string SearchText;
-        public string Category;
+        public string SearchText; // поле - текст для поиска
+        public string Category;   // поле - выбранная категория
     }
 }
